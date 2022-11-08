@@ -1,0 +1,75 @@
+.header{
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+/* Info button */
+.btn-info{
+    border: transparent;
+    background-color: transparent;
+    float: right;
+    clear: left;
+    position: relative;
+    top: -4vh;
+    right: 6%;
+}
+/* Main notice with name of produt */
+.name-item-notice{
+    width: 100%;
+    margin-top: 10%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Stars box */
+.stars-icon-item >img{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9rem;
+}
+/* Text box with notice */
+.notice-item > p{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 6% 10%;
+    padding: 2%;
+    text-align: justify;
+}
+/* Buttons */
+.select-container{
+    margin-bottom: 10rem;
+}
+.box-icons-coffee{
+    display: flex;
+    margin: 20px 85px;
+}
+.notice-coffee-icon{
+    padding-top: 1vh;
+    color: #1cbaba;
+}
+.medium-notice{
+    margin-bottom: -0.9vh;
+}
+.small-notice{
+    margin-bottom: -1.5vh;
+}
+
+.coffee-icon{
+    background-color: white;
+    border: transparent;
+}
+.ok{
+    margin-bottom:10rem;
+    padding: 7px;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    background-color: #1cbaba;
+    color: white;
+    border: transparent;  
+    border-radius: 3px;
+}

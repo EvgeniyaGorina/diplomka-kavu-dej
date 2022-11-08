@@ -1,0 +1,1613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_NOWx0E1ZEe28Jf4XjjkdRA">
+  <modelElement href="apptakeaway.uml#_PG9SME1ZEe28Jf4XjjkdRA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TGebwE1ZEe28Jf4XjjkdRA" sourceAnchor="186.0,0.0" targetAnchor="0.0,110.0" target="_TGfC0E1ZEe28Jf4XjjkdRA" source="_TJmoQE1ZEe28Jf4XjjkdRA">
+    <modelElement href="apptakeaway.uml#_Pvn0sU1ZEe28Jf4XjjkdRA"/>
+    <bendpoints xmi:id="_TbXtsE1ZEe28Jf4XjjkdRA" sourceY="-164" targetX="-266"/>
+    <nameVisual xmi:id="_TGebwU1ZEe28Jf4XjjkdRA" text="">
+      <visualProperties xmi:id="_Tb7uYE1ZEe28Jf4XjjkdRA" position="2.604107533632259,109.40470293229009"/>
+    </nameVisual>
+    <sourceRole xmi:id="_TGebwk1ZEe28Jf4XjjkdRA" aggregationKind="NONE" name="user" navigable="true">
+      <modelElement href="apptakeaway.uml#_PrrI0E1ZEe28Jf4XjjkdRA"/>
+      <visualProperties xmi:id="_Tb6gQE1ZEe28Jf4XjjkdRA" position="-13.619763888941861,-81.04626892003716"/>
+      <visibility xmi:id="_TGebw01ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TGebxE1ZEe28Jf4XjjkdRA" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TGebxU1ZEe28Jf4XjjkdRA" aggregationKind="NONE" name="">
+      <modelElement href="apptakeaway.uml#_PvnNoU1ZEe28Jf4XjjkdRA"/>
+      <visualProperties xmi:id="_Tb8VcE1ZEe28Jf4XjjkdRA" position="-270.31309205060813,87.66675815625962"/>
+      <visibility xmi:id="_TGebxk1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TGebx01ZEe28Jf4XjjkdRA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TGwIkE1ZEe28Jf4XjjkdRA" sourceAnchor="58.0,0.0" targetAnchor="362.0,471.0" target="_TG4EYE1ZEe28Jf4XjjkdRA" source="_TJmoQE1ZEe28Jf4XjjkdRA">
+    <modelElement href="apptakeaway.uml#_Pw94gU1ZEe28Jf4XjjkdRA"/>
+    <stereotypes xmi:id="_TG0aA01ZEe28Jf4XjjkdRA" name="Reference">
+      <modelElement href="apptakeaway.uml#_PxEmME1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TG0aAE1ZEe28Jf4XjjkdRA" text="">
+      <visualProperties xmi:id="_Tb5SIE1ZEe28Jf4XjjkdRA" position="-16.519321653538043,-130.28771179390935"/>
+    </nameVisual>
+    <sourceRole xmi:id="_TG0aAU1ZEe28Jf4XjjkdRA" aggregationKind="NONE" name="">
+      <modelElement href="apptakeaway.uml#_Pw94gk1ZEe28Jf4XjjkdRA"/>
+      <visualProperties xmi:id="_Tb3c8E1ZEe28Jf4XjjkdRA" position="1.4892136294635065,-76.75443282536116"/>
+      <visibility xmi:id="_TG22QU1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TG22QE1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TG0aAk1ZEe28Jf4XjjkdRA" aggregationKind="NONE" name="credentials" navigable="true">
+      <modelElement href="apptakeaway.uml#_PvOMEE1ZEe28Jf4XjjkdRA"/>
+      <visualProperties xmi:id="_Tb5SIU1ZEe28Jf4XjjkdRA" position="-40.05483846739992,-231.4322621529027"/>
+      <stereotypes xmi:id="_TG3dUE1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PvPaME1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TG3dUU1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PvPaMU1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TG22Q01ZEe28Jf4XjjkdRA" label="-"/>
+      <cardinality xmi:id="_TG22Qk1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_THUJQE1ZEe28Jf4XjjkdRA" sourceAnchor="0.0,151.0" targetAnchor="186.0,387.0" target="_TJmoQE1ZEe28Jf4XjjkdRA" source="_THd6QE1ZEe28Jf4XjjkdRA">
+    <modelElement href="apptakeaway.uml#_Pwf-cE1ZEe28Jf4XjjkdRA"/>
+    <bendpoints xmi:id="_TbUqYE1ZEe28Jf4XjjkdRA" sourceX="-676" targetY="206"/>
+    <stereotypes xmi:id="_THYask1ZEe28Jf4XjjkdRA" name="Reference">
+      <modelElement href="apptakeaway.uml#_PwohUE1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_THXzoE1ZEe28Jf4XjjkdRA" text="">
+      <visualProperties xmi:id="_TbbYEE1ZEe28Jf4XjjkdRA" position="512.8308732208584,-5.008385771763358"/>
+    </nameVisual>
+    <sourceRole xmi:id="_THYasE1ZEe28Jf4XjjkdRA" aggregationKind="NONE" name="">
+      <modelElement href="apptakeaway.uml#_Pwf-cU1ZEe28Jf4XjjkdRA"/>
+      <visualProperties xmi:id="_TbaJ8U1ZEe28Jf4XjjkdRA" position="-61.56371858889656,-21.382007274517434"/>
+      <visibility xmi:id="_THaP4U1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_THaP4E1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_THYasU1ZEe28Jf4XjjkdRA" aggregationKind="NONE" name="employees" navigable="true">
+      <modelElement href="apptakeaway.uml#_Pswt8E1ZEe28Jf4XjjkdRA"/>
+      <visualProperties xmi:id="_TbbYEU1ZEe28Jf4XjjkdRA" position="405.48515358083887,185.09040341877744"/>
+      <visibility xmi:id="_THaP401ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_THaP4k1ZEe28Jf4XjjkdRA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_THdTME1ZEe28Jf4XjjkdRA" sourceAnchor="164.0,0.0" targetAnchor="164.0,219.0" target="_TIfN8E1ZEe28Jf4XjjkdRA" source="_THd6QE1ZEe28Jf4XjjkdRA">
+    <modelElement href="apptakeaway.uml#_PwohUU1ZEe28Jf4XjjkdRA"/>
+    <bendpoints xmi:id="_TbVRcE1ZEe28Jf4XjjkdRA" sourceY="-180" targetX="-639" targetY="285"/>
+    <bendpoints xmi:id="_TbVRcU1ZEe28Jf4XjjkdRA" sourceX="639" sourceY="-180" targetY="285"/>
+    <stereotypes xmi:id="_THdTMU1ZEe28Jf4XjjkdRA" name="Reference">
+      <modelElement href="apptakeaway.uml#_PwvPAE1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_THdTMk1ZEe28Jf4XjjkdRA" text="">
+      <visualProperties xmi:id="_TbebYE1ZEe28Jf4XjjkdRA" position="-342.5201283418987,32.291283939872386"/>
+    </nameVisual>
+    <sourceRole xmi:id="_THdTM01ZEe28Jf4XjjkdRA" aggregationKind="NONE" name="">
+      <modelElement href="apptakeaway.uml#_PwohUk1ZEe28Jf4XjjkdRA"/>
+      <visualProperties xmi:id="_TbdNQE1ZEe28Jf4XjjkdRA" position="-13.935341172841618,-72.33662970602322"/>
+      <visibility xmi:id="_THdTNE1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_THdTNU1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_THdTNk1ZEe28Jf4XjjkdRA" aggregationKind="NONE" name="menus" navigable="true">
+      <modelElement href="apptakeaway.uml#_Ps9iQE1ZEe28Jf4XjjkdRA"/>
+      <visualProperties xmi:id="_TbfCcE1ZEe28Jf4XjjkdRA" position="-679.6173860925062,203.89839245209205"/>
+      <visibility xmi:id="_THdTN01ZEe28Jf4XjjkdRA" label="-"/>
+      <cardinality xmi:id="_THdTOE1ZEe28Jf4XjjkdRA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_THwOIE1ZEe28Jf4XjjkdRA" sourceAnchor="328.0,151.0" targetAnchor="134.0,275.0" target="_TH4xAE1ZEe28Jf4XjjkdRA" source="_TEkXQE1ZEe28Jf4XjjkdRA">
+    <modelElement href="apptakeaway.uml#_PvyMwE1ZEe28Jf4XjjkdRA"/>
+    <bendpoints xmi:id="_TbTcQE1ZEe28Jf4XjjkdRA" sourceX="656" targetY="206"/>
+    <nameVisual xmi:id="_THyDUU1ZEe28Jf4XjjkdRA" text="">
+      <visualProperties xmi:id="_TbZi4E1ZEe28Jf4XjjkdRA" position="-493.9352636464789,-19.82342514980212"/>
+    </nameVisual>
+    <sourceRole xmi:id="_THyDUk1ZEe28Jf4XjjkdRA" name="calc" navigable="true">
+      <modelElement href="apptakeaway.uml#_PtTggk1ZEe28Jf4XjjkdRA"/>
+      <visualProperties xmi:id="_TbYUwE1ZEe28Jf4XjjkdRA" position="31.651113435069533,-42.7937852631577"/>
+      <visibility xmi:id="_TH2UwU1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TH2UwE1ZEe28Jf4XjjkdRA" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_THyqYE1ZEe28Jf4XjjkdRA" aggregationKind="NONE" name="">
+      <modelElement href="apptakeaway.uml#_PvxlsU1ZEe28Jf4XjjkdRA"/>
+      <visualProperties xmi:id="_TbaJ8E1ZEe28Jf4XjjkdRA" position="-389.37036069286876,163.89150977010644"/>
+      <visibility xmi:id="_TH270E1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TH2Uw01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_THyDUE1ZEe28Jf4XjjkdRA" sourceAnchor="328.0,189.0" targetAnchor="134.0,219.0" target="_TIfN8E1ZEe28Jf4XjjkdRA" source="_TH4xAE1ZEe28Jf4XjjkdRA">
+    <modelElement href="apptakeaway.uml#_PvUSsE1ZEe28Jf4XjjkdRA"/>
+    <bendpoints xmi:id="_TbV4gE1ZEe28Jf4XjjkdRA" sourceX="841" targetY="244"/>
+    <nameVisual xmi:id="_TH1tsE1ZEe28Jf4XjjkdRA" text="">
+      <visualProperties xmi:id="_TbhesE1ZEe28Jf4XjjkdRA" position="-690.4252241683332,-17.39414292174058"/>
+    </nameVisual>
+    <sourceRole xmi:id="_TH1tsU1ZEe28Jf4XjjkdRA" name="items" navigable="true">
+      <modelElement href="apptakeaway.uml#_PrVxoE1ZEe28Jf4XjjkdRA"/>
+      <visualProperties xmi:id="_TbgQkE1ZEe28Jf4XjjkdRA" position="13.076788890009311,-40.601867619602785"/>
+      <stereotypes xmi:id="_TH3i4k1ZEe28Jf4XjjkdRA" name="JoinColumns">
+        <modelElement href="apptakeaway.uml#_PrWYsE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TH3i4U1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TH3i4E1ZEe28Jf4XjjkdRA" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TH1tsk1ZEe28Jf4XjjkdRA" aggregationKind="NONE" name="">
+      <modelElement href="apptakeaway.uml#_PvSdgU1ZEe28Jf4XjjkdRA"/>
+      <visualProperties xmi:id="_TbhesU1ZEe28Jf4XjjkdRA" position="-576.25418743675,202.71217224513123"/>
+      <visibility xmi:id="_TH4J8U1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TH4J8E1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TIq0IE1ZEe28Jf4XjjkdRA" sourceAnchor="164.0,0.0" targetAnchor="343.0,110.0" target="_TGfC0E1ZEe28Jf4XjjkdRA" source="_TI0lIE1ZEe28Jf4XjjkdRA">
+    <modelElement href="apptakeaway.uml#_PwvPAU1ZEe28Jf4XjjkdRA"/>
+    <bendpoints xmi:id="_TbWfkE1ZEe28Jf4XjjkdRA" sourceY="-600" targetX="638"/>
+    <stereotypes xmi:id="_TIspUU1ZEe28Jf4XjjkdRA" name="Reference">
+      <modelElement href="apptakeaway.uml#_Pw2jwE1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TIsCQE1ZEe28Jf4XjjkdRA" text="">
+      <visualProperties xmi:id="_Tbtr8E1ZEe28Jf4XjjkdRA" position="-14.264426198212732,524.6134929863259"/>
+    </nameVisual>
+    <sourceRole xmi:id="_TIsCQU1ZEe28Jf4XjjkdRA" aggregationKind="NONE" name="">
+      <modelElement href="apptakeaway.uml#_PwvPAk1ZEe28Jf4XjjkdRA"/>
+      <visualProperties xmi:id="_TbtE4E1ZEe28Jf4XjjkdRA" position="2.9016016019947983,-81.53573677339199"/>
+      <visibility xmi:id="_TIvsoU1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TIvsoE1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TIspUE1ZEe28Jf4XjjkdRA" aggregationKind="NONE" name="cart" navigable="true">
+      <modelElement href="apptakeaway.uml#_PuNfcE1ZEe28Jf4XjjkdRA"/>
+      <visualProperties xmi:id="_Tbtr8U1ZEe28Jf4XjjkdRA" position="626.7814091585942,483.34865777518587"/>
+      <visibility xmi:id="_TIwTsE1ZEe28Jf4XjjkdRA" label="-"/>
+      <cardinality xmi:id="_TIvsok1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TIz-EE1ZEe28Jf4XjjkdRA" sourceAnchor="328.0,151.0" targetAnchor="164.0,359.0" target="_TI0lIE1ZEe28Jf4XjjkdRA" source="_TJSfME1ZEe28Jf4XjjkdRA">
+    <modelElement href="apptakeaway.uml#_Pv3FQU1ZEe28Jf4XjjkdRA"/>
+    <bendpoints xmi:id="_TbXGoE1ZEe28Jf4XjjkdRA" sourceX="243" targetY="206"/>
+    <nameVisual xmi:id="_TIz-EU1ZEe28Jf4XjjkdRA" text="">
+      <visualProperties xmi:id="_Tb1AsE1ZEe28Jf4XjjkdRA" position="-73.85153435190114,-9.476727832710935"/>
+    </nameVisual>
+    <sourceRole xmi:id="_TIz-Ek1ZEe28Jf4XjjkdRA" name="orderItems" navigable="true">
+      <modelElement href="apptakeaway.uml#_PuMRUE1ZEe28Jf4XjjkdRA"/>
+      <visualProperties xmi:id="_TbzykE1ZEe28Jf4XjjkdRA" position="5.013086671104929,-23.768478376808503"/>
+      <visibility xmi:id="_TIz-E01ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TIz-FE1ZEe28Jf4XjjkdRA" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TIz-FU1ZEe28Jf4XjjkdRA" aggregationKind="NONE" name="">
+      <modelElement href="apptakeaway.uml#_Pv3FQE1ZEe28Jf4XjjkdRA"/>
+      <visualProperties xmi:id="_Tb1AsU1ZEe28Jf4XjjkdRA" position="36.610794835167326,181.91643224237703"/>
+      <visibility xmi:id="_TIz-Fk1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TIz-F01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TJJVQE1ZEe28Jf4XjjkdRA" sourceAnchor="0.0,151.0" targetAnchor="164.0,275.0" target="_TH4xAE1ZEe28Jf4XjjkdRA" source="_TJSfME1ZEe28Jf4XjjkdRA">
+    <modelElement href="apptakeaway.uml#_Pw3K0E1ZEe28Jf4XjjkdRA"/>
+    <bendpoints xmi:id="_TbWfkU1ZEe28Jf4XjjkdRA" sourceX="-232" targetY="694"/>
+    <stereotypes xmi:id="_TJMYk01ZEe28Jf4XjjkdRA" name="Reference">
+      <modelElement href="apptakeaway.uml#_Pw94gE1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_TJMYkE1ZEe28Jf4XjjkdRA" text="">
+      <visualProperties xmi:id="_Tbx9YE1ZEe28Jf4XjjkdRA" position="77.62596564221985,-21.550619659465042"/>
+    </nameVisual>
+    <sourceRole xmi:id="_TJMYkU1ZEe28Jf4XjjkdRA" aggregationKind="NONE" name="">
+      <modelElement href="apptakeaway.uml#_Pw3K0U1ZEe28Jf4XjjkdRA"/>
+      <visualProperties xmi:id="_TbwIME1ZEe28Jf4XjjkdRA" position="-55.839339751038096,-42.65302360533349"/>
+      <visibility xmi:id="_TJPb4U1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TJPb4E1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_TJMYkk1ZEe28Jf4XjjkdRA" aggregationKind="NONE" name="item" navigable="true">
+      <modelElement href="apptakeaway.uml#_PuS_AE1ZEe28Jf4XjjkdRA"/>
+      <visualProperties xmi:id="_TbykcE1ZEe28Jf4XjjkdRA" position="-17.348331828025266,651.0559299326848"/>
+      <visibility xmi:id="_TJPb401ZEe28Jf4XjjkdRA" label="-"/>
+      <cardinality xmi:id="_TJPb4k1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TEkXQE1ZEe28Jf4XjjkdRA" name="Calculation" associationsOut="_THwOIE1ZEe28Jf4XjjkdRA">
+    <modelElement href="apptakeaway.uml#_PPEFUE1ZEe28Jf4XjjkdRA"/>
+    <visualProperties xmi:id="_TEkXQU1ZEe28Jf4XjjkdRA" position="30.0,30.0" size="-1.0,-1.0" backgroundColor="255,255,255" gradientToColor="255,255,255"/>
+    <stereotypes xmi:id="_TEkXQk1ZEe28Jf4XjjkdRA" name="JPA1StyledElement">
+      <modelElement href="apptakeaway.uml#_PPF6gE1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_TEkXQ01ZEe28Jf4XjjkdRA" name="Annotations">
+      <modelElement href="apptakeaway.uml#_PPPrgE1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <visibility xmi:id="_TEkXRE1ZEe28Jf4XjjkdRA" label="+"/>
+    <attributes xmi:id="_TEkXRU1ZEe28Jf4XjjkdRA" name="id">
+      <modelElement href="apptakeaway.uml#_PtWj0E1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TEkXRk1ZEe28Jf4XjjkdRA" name="PrimaryKey">
+        <modelElement href="apptakeaway.uml#_PtWj0U1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TEkXR01ZEe28Jf4XjjkdRA" name="GeneratedValueMapping">
+        <modelElement href="apptakeaway.uml#_PtWj0k1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TEkXSE1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TEkXSU1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TEkXSk1ZEe28Jf4XjjkdRA" name="Long">
+        <modelElement href="apptakeaway.uml#_PpZ38E1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TEkXS01ZEe28Jf4XjjkdRA" name="size">
+      <modelElement href="apptakeaway.uml#_PtXx8E1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TEkXTE1ZEe28Jf4XjjkdRA" name="Column">
+        <modelElement href="apptakeaway.uml#_PtdRgE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TEkXTU1ZEe28Jf4XjjkdRA" name="EnumerationStyleMapping">
+        <modelElement href="apptakeaway.uml#_Ptj_ME1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TEkXTk1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TEkXT01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TEkXUE1ZEe28Jf4XjjkdRA" name="SizeEnum">
+        <modelElement href="apptakeaway.uml#_PnDHgE1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TEkXUU1ZEe28Jf4XjjkdRA" name="price">
+      <modelElement href="apptakeaway.uml#_PtlNUE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TEkXUk1ZEe28Jf4XjjkdRA" name="Column">
+        <modelElement href="apptakeaway.uml#_PttJIE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TEkXU01ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TEkXVE1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TEkXVU1ZEe28Jf4XjjkdRA" name="Float">
+        <modelElement href="apptakeaway.uml#_PqbysE1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TEkXVk1ZEe28Jf4XjjkdRA" name="currency">
+      <modelElement href="apptakeaway.uml#_PtuXQE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TEkXV01ZEe28Jf4XjjkdRA" name="Column">
+        <modelElement href="apptakeaway.uml#_Pt0d4E1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TEkXWE1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TEkXWU1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TEkXWk1ZEe28Jf4XjjkdRA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TEkXW01ZEe28Jf4XjjkdRA" name="prepTime">
+      <modelElement href="apptakeaway.uml#_Pt1sAE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TEk-UE1ZEe28Jf4XjjkdRA" name="Column">
+        <modelElement href="apptakeaway.uml#_Pt7LkE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TEk-UU1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TEk-Uk1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TEk-U01ZEe28Jf4XjjkdRA" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_TEk-VE1ZEe28Jf4XjjkdRA" name="hashCode">
+      <modelElement href="apptakeaway.uml#_PPI90E1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TEk-VU1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PPKL8E1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TEk-Vk1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PPLaEE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TEk-V01ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TEk-WE1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TEk-WU1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PPJk4E1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TEk-Wk1ZEe28Jf4XjjkdRA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TEk-W01ZEe28Jf4XjjkdRA" name="toString">
+      <modelElement href="apptakeaway.uml#_PPMBIE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TEk-XE1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PPN2UE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TEk-XU1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PPOdYE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TEk-Xk1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TEk-X01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TEk-YE1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PPNPQE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TEk-YU1ZEe28Jf4XjjkdRA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TEk-Yk1ZEe28Jf4XjjkdRA" name="equals">
+      <modelElement href="apptakeaway.uml#_PqkVkE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TEk-Y01ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PqljsU1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TEk-ZE1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_Pqmx0E1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TEk-ZU1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TEk-Zk1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TEk-Z01ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PqljsE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TEk-aE1ZEe28Jf4XjjkdRA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_TEk-aU1ZEe28Jf4XjjkdRA" name="obj">
+        <modelElement href="apptakeaway.uml#_Pqk8oE1ZEe28Jf4XjjkdRA"/>
+        <cardinality xmi:id="_TEk-ak1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+        <type xmi:id="_TEk-a01ZEe28Jf4XjjkdRA" name="Object">
+          <modelElement href="apptakeaway.uml#_Ppjo8E1ZEe28Jf4XjjkdRA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TGfC0E1ZEe28Jf4XjjkdRA" name="Cart" associationsIn="_TGebwE1ZEe28Jf4XjjkdRA _TIq0IE1ZEe28Jf4XjjkdRA">
+    <modelElement href="apptakeaway.uml#_PL3nYE1ZEe28Jf4XjjkdRA"/>
+    <visualProperties xmi:id="_TGfC0U1ZEe28Jf4XjjkdRA" position="866.0,-606.0" size="-1.0,-1.0" backgroundColor="255,255,255" gradientToColor="255,255,255"/>
+    <stereotypes xmi:id="_TGfC0k1ZEe28Jf4XjjkdRA" name="JPA1StyledElement">
+      <modelElement href="apptakeaway.uml#_PL6DoE1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_TGfC001ZEe28Jf4XjjkdRA" name="Annotations">
+      <modelElement href="apptakeaway.uml#_PMEbsE1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <visibility xmi:id="_TGfC1E1ZEe28Jf4XjjkdRA" label="+"/>
+    <attributes xmi:id="_TGfC1U1ZEe28Jf4XjjkdRA" name="id">
+      <modelElement href="apptakeaway.uml#_PrYN4E1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TGfC1k1ZEe28Jf4XjjkdRA" name="PrimaryKey">
+        <modelElement href="apptakeaway.uml#_PrY08E1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TGfC101ZEe28Jf4XjjkdRA" name="GeneratedValueMapping">
+        <modelElement href="apptakeaway.uml#_PrY08U1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TGfC2E1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TGfC2U1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TGfC2k1ZEe28Jf4XjjkdRA" name="Long">
+        <modelElement href="apptakeaway.uml#_PpZ38E1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TGfC201ZEe28Jf4XjjkdRA" name="payment">
+      <modelElement href="apptakeaway.uml#_PrZcAE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TGfC3E1ZEe28Jf4XjjkdRA" name="Column">
+        <modelElement href="apptakeaway.uml#_PrhX0E1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TGfC3U1ZEe28Jf4XjjkdRA" name="EnumerationStyleMapping">
+        <modelElement href="apptakeaway.uml#_Prp6sE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TGfC3k1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TGfC301ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TGfC4E1ZEe28Jf4XjjkdRA" name="PaymentMethodEnum">
+        <modelElement href="apptakeaway.uml#_PjTP8U1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TGfC4U1ZEe28Jf4XjjkdRA" name="user">
+      <modelElement href="apptakeaway.uml#_PrrI0E1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TGfC4k1ZEe28Jf4XjjkdRA" name="Cascade">
+        <modelElement href="apptakeaway.uml#_Prx2gE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TGfC401ZEe28Jf4XjjkdRA" name="JoinColumns">
+        <modelElement href="apptakeaway.uml#_Prx2gU1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TGfC5E1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TGfC5U1ZEe28Jf4XjjkdRA" label="0..1" max="1"/>
+      <type xmi:id="_TGfC5k1ZEe28Jf4XjjkdRA" name="User">
+        <modelElement href="apptakeaway.uml#_PQpZsE1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_TGfC501ZEe28Jf4XjjkdRA" name="hashCode">
+      <modelElement href="apptakeaway.uml#_PL9uAE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TGfC6E1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PL_jME1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TGfC6U1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PMAKQE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TGfC6k1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TGfC601ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TGfC7E1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PL-VEE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TGfp4E1ZEe28Jf4XjjkdRA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TGfp4U1ZEe28Jf4XjjkdRA" name="toString">
+      <modelElement href="apptakeaway.uml#_PMAxUE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TGfp4k1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PMCmgE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TGfp401ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PMDNkE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TGfp5E1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TGfp5U1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TGfp5k1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PMB_cE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TGfp501ZEe28Jf4XjjkdRA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TGfp6E1ZEe28Jf4XjjkdRA" name="equals">
+      <modelElement href="apptakeaway.uml#_PpyScE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TGfp6U1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PpzgkE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TGfp6k1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_Pp0HoE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TGfp601ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TGfp7E1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TGfp7U1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_Ppy5gE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TGfp7k1ZEe28Jf4XjjkdRA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_TGfp701ZEe28Jf4XjjkdRA" name="obj">
+        <modelElement href="apptakeaway.uml#_PpyScU1ZEe28Jf4XjjkdRA"/>
+        <cardinality xmi:id="_TGfp8E1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+        <type xmi:id="_TGfp8U1ZEe28Jf4XjjkdRA" name="Object">
+          <modelElement href="apptakeaway.uml#_Ppjo8E1ZEe28Jf4XjjkdRA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TG4EYE1ZEe28Jf4XjjkdRA" name="Credentials" associationsIn="_TGwIkE1ZEe28Jf4XjjkdRA">
+    <modelElement href="apptakeaway.uml#_PMQo8E1ZEe28Jf4XjjkdRA"/>
+    <visualProperties xmi:id="_TG4EYU1ZEe28Jf4XjjkdRA" position="110.0,-858.0" size="-1.0,-1.0" backgroundColor="255,255,255" gradientToColor="255,255,255"/>
+    <stereotypes xmi:id="_TG4EYk1ZEe28Jf4XjjkdRA" name="Table">
+      <modelElement href="apptakeaway.uml#_PNDTIE1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_TG4EY01ZEe28Jf4XjjkdRA" name="JPA1StyledElement">
+      <modelElement href="apptakeaway.uml#_PNEhQE1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_TG4EZE1ZEe28Jf4XjjkdRA" name="Patch">
+      <modelElement href="apptakeaway.uml#_TEDZ4E1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <visibility xmi:id="_TG4EZU1ZEe28Jf4XjjkdRA" label="+"/>
+    <attributes xmi:id="_TG4EZk1ZEe28Jf4XjjkdRA" name="id">
+      <modelElement href="apptakeaway.uml#_Pr050E1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TG4EZ01ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_Pr2H8E1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TG4EaE1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_Pr2H8U1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TG4EaU1ZEe28Jf4XjjkdRA" label="-"/>
+      <cardinality xmi:id="_TG4Eak1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TG4Ea01ZEe28Jf4XjjkdRA" name="Long">
+        <modelElement href="apptakeaway.uml#_PpZ38E1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TG4EbE1ZEe28Jf4XjjkdRA" name="email">
+      <modelElement href="apptakeaway.uml#_Pr3WEE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TG4EbU1ZEe28Jf4XjjkdRA" name="NotNull">
+        <modelElement href="apptakeaway.uml#_Pr3WEU1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TG4Ebk1ZEe28Jf4XjjkdRA" name="Email">
+        <modelElement href="apptakeaway.uml#_Pr39IE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TG4Eb01ZEe28Jf4XjjkdRA" name="Column">
+        <modelElement href="apptakeaway.uml#_Pr-DwE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TG4EcE1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TG4EcU1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TG4Eck1ZEe28Jf4XjjkdRA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TG4Ec01ZEe28Jf4XjjkdRA" name="phone">
+      <modelElement href="apptakeaway.uml#_Pr_R4E1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TG4EdE1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_Pr_48E1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TG4EdU1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PsCVME1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TG4Edk1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TG4Ed01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TG4EeE1ZEe28Jf4XjjkdRA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TG4EeU1ZEe28Jf4XjjkdRA" name="password">
+      <modelElement href="apptakeaway.uml#_PsC8QE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TG4Eek1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PsC8QU1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TG4Ee01ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PsExcE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TG4EfE1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TG4EfU1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TG4Efk1ZEe28Jf4XjjkdRA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TG4Ef01ZEe28Jf4XjjkdRA" name="role">
+      <modelElement href="apptakeaway.uml#_PsF_kk1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TG4EgE1ZEe28Jf4XjjkdRA" name="EnumerationStyleMapping">
+        <modelElement href="apptakeaway.uml#_PsOicE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TG4EgU1ZEe28Jf4XjjkdRA" name="Column">
+        <modelElement href="apptakeaway.uml#_PsWeQE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TG4Egk1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TG4Eg01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TG4EhE1ZEe28Jf4XjjkdRA" name="RoleEnum">
+        <modelElement href="apptakeaway.uml#_PlYTkU1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_TG4EhU1ZEe28Jf4XjjkdRA" name="getUsername">
+      <modelElement href="apptakeaway.uml#_PNKA0E1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TG4Ehk1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PNLO8E1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TG4Eh01ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PNNEIE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TG4EiE1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TG4EiU1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TG4Eik1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PNKn4E1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TG4Ei01ZEe28Jf4XjjkdRA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TG4EjE1ZEe28Jf4XjjkdRA" name="hashCode">
+      <modelElement href="apptakeaway.uml#_PNNEIk1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TG4EjU1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PNO5UE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TG4Ejk1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PNPgYE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TG4Ej01ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TG4EkE1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TG4EkU1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PNNrME1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TG4Ekk1ZEe28Jf4XjjkdRA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TG4Ek01ZEe28Jf4XjjkdRA" name="toString">
+      <modelElement href="apptakeaway.uml#_PNQHcE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TG4ElE1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PNR8oE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TG4ElU1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PNSjsE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TG4Elk1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TG4El01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TG4EmE1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PNRVkE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TG4EmU1ZEe28Jf4XjjkdRA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TG4Emk1ZEe28Jf4XjjkdRA" name="getAuthorities">
+      <modelElement href="apptakeaway.uml#_PNSjsk1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TG4Em01ZEe28Jf4XjjkdRA" name="Generics">
+        <modelElement href="apptakeaway.uml#_PNleoE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TG4EnE1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PNmFsE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TG4EnU1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PNoh8E1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TG4Enk1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TG4En01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TG4EoE1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_Pp9RkE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TG4EoU1ZEe28Jf4XjjkdRA" name="Collection">
+          <modelElement href="apptakeaway.uml#_PjnZAE1ZEe28Jf4XjjkdRA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TG4Eok1ZEe28Jf4XjjkdRA" name="isAccountNonExpired">
+      <modelElement href="apptakeaway.uml#_PNpwEE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TG4Eo01ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PNq-ME1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TG4EpE1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PNrlQE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TG4EpU1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TG4Epk1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TG4Ep01ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PNqXIE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TG4EqE1ZEe28Jf4XjjkdRA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TG4EqU1ZEe28Jf4XjjkdRA" name="isAccountNonLocked">
+      <modelElement href="apptakeaway.uml#_PNsMUE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TG4Eqk1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PNtacE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TG4Eq01ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PNuBgE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TG4ErE1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TG4ErU1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TG4Erk1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PNszYE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TG4Er01ZEe28Jf4XjjkdRA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TG4EsE1ZEe28Jf4XjjkdRA" name="isCredentialsNonExpired">
+      <modelElement href="apptakeaway.uml#_PNuokE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TG4EsU1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PNwdwE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TG4Esk1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PNxE0E1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TG4Es01ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TG4EtE1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TG4EtU1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PNv2sE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TG4Etk1ZEe28Jf4XjjkdRA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TG4Et01ZEe28Jf4XjjkdRA" name="isEnabled">
+      <modelElement href="apptakeaway.uml#_PNxE0k1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TG4EuE1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PNy6AE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TG4EuU1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PNzhEE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TG4Euk1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TG4Eu01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TG4EvE1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PNyS8E1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TG4EvU1ZEe28Jf4XjjkdRA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TG4Evk1ZEe28Jf4XjjkdRA" name="equals">
+      <modelElement href="apptakeaway.uml#_Pp6OQE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TG4Ev01ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_Pp8DcE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TG4EwE1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_Pp8qgE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TG4EwU1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TG4Ewk1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TG4Ew01ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_Pp61UU1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TG4ExE1ZEe28Jf4XjjkdRA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_TG4ExU1ZEe28Jf4XjjkdRA" name="obj">
+        <modelElement href="apptakeaway.uml#_Pp61UE1ZEe28Jf4XjjkdRA"/>
+        <cardinality xmi:id="_TG4Exk1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+        <type xmi:id="_TG4Ex01ZEe28Jf4XjjkdRA" name="Object">
+          <modelElement href="apptakeaway.uml#_Ppjo8E1ZEe28Jf4XjjkdRA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_THd6QE1ZEe28Jf4XjjkdRA" name="Enterprise" associationsOut="_THUJQE1ZEe28Jf4XjjkdRA _THdTME1ZEe28Jf4XjjkdRA">
+    <modelElement href="apptakeaway.uml#_PN-gME1ZEe28Jf4XjjkdRA"/>
+    <visualProperties xmi:id="_THd6QU1ZEe28Jf4XjjkdRA" position="1276.0,110.0" size="-1.0,-1.0" backgroundColor="255,255,255" gradientToColor="255,255,255"/>
+    <stereotypes xmi:id="_THd6Qk1ZEe28Jf4XjjkdRA" name="JPA1StyledElement">
+      <modelElement href="apptakeaway.uml#_POA8cE1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_THd6Q01ZEe28Jf4XjjkdRA" name="Annotations">
+      <modelElement href="apptakeaway.uml#_POQ0EE1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <visibility xmi:id="_THd6RE1ZEe28Jf4XjjkdRA" label="+"/>
+    <attributes xmi:id="_THd6RU1ZEe28Jf4XjjkdRA" name="id">
+      <modelElement href="apptakeaway.uml#_PsZhkE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_THd6Rk1ZEe28Jf4XjjkdRA" name="PrimaryKey">
+        <modelElement href="apptakeaway.uml#_PsaIoE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_THd6R01ZEe28Jf4XjjkdRA" name="GeneratedValueMapping">
+        <modelElement href="apptakeaway.uml#_PsavsE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_THd6SE1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_THd6SU1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_THd6Sk1ZEe28Jf4XjjkdRA" name="Long">
+        <modelElement href="apptakeaway.uml#_PpZ38E1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_THd6S01ZEe28Jf4XjjkdRA" name="name">
+      <modelElement href="apptakeaway.uml#_Psb90E1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_THd6TE1ZEe28Jf4XjjkdRA" name="Column">
+        <modelElement href="apptakeaway.uml#_PslHwE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_THd6TU1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_THd6Tk1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_THd6T01ZEe28Jf4XjjkdRA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_THd6UE1ZEe28Jf4XjjkdRA" name="about">
+      <modelElement href="apptakeaway.uml#_PsmV4E1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_THd6UU1ZEe28Jf4XjjkdRA" name="Column">
+        <modelElement href="apptakeaway.uml#_Psvf0E1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_THd6Uk1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_THd6U01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_THd6VE1ZEe28Jf4XjjkdRA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_THd6VU1ZEe28Jf4XjjkdRA" defaultValue="new ArrayList&lt;>()" name="employees">
+      <modelElement href="apptakeaway.uml#_Pswt8E1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_THd6Vk1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PsxVAE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_THd6V01ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PszxQE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_THd6WE1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_THd6WU1ZEe28Jf4XjjkdRA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_THd6Wk1ZEe28Jf4XjjkdRA" name="User">
+        <modelElement href="apptakeaway.uml#_PQpZsE1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_THd6W01ZEe28Jf4XjjkdRA" defaultValue="new ArrayList&lt;>()" name="menus">
+      <modelElement href="apptakeaway.uml#_Ps9iQE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_THd6XE1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_Ps-JUU1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_THd6XU1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_Ps-wYE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_THd6Xk1ZEe28Jf4XjjkdRA" label="-"/>
+      <cardinality xmi:id="_THd6X01ZEe28Jf4XjjkdRA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_THd6YE1ZEe28Jf4XjjkdRA" name="Menu">
+        <modelElement href="apptakeaway.uml#_PLInkE1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_THd6YU1ZEe28Jf4XjjkdRA" name="getMenus">
+      <modelElement href="apptakeaway.uml#_POFN4E1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_THd6Yk1ZEe28Jf4XjjkdRA" name="StyledElement">
+        <modelElement href="apptakeaway.uml#_POHDEE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_THd6Y01ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_THd6ZE1ZEe28Jf4XjjkdRA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_THd6ZU1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_POGcAE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_THd6Zk1ZEe28Jf4XjjkdRA" name="Menu">
+          <modelElement href="apptakeaway.uml#_PLInkE1ZEe28Jf4XjjkdRA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_THd6Z01ZEe28Jf4XjjkdRA" name="hashCode">
+      <modelElement href="apptakeaway.uml#_POIRME1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_THd6aE1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_POKGYE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_THd6aU1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_POLUgE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_THd6ak1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_THd6a01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_THd6bE1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_POJfUE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_THd6bU1ZEe28Jf4XjjkdRA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_THd6bk1ZEe28Jf4XjjkdRA" name="toString">
+      <modelElement href="apptakeaway.uml#_POL7kE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_THd6b01ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PONwwE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_THd6cE1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_POO-4E1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_THd6cU1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_THd6ck1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_THd6c01ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PONJsE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_THd6dE1ZEe28Jf4XjjkdRA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_THd6dU1ZEe28Jf4XjjkdRA" name="setMenus">
+      <modelElement href="apptakeaway.uml#_PqD_QE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_THd6dk1ZEe28Jf4XjjkdRA" name="StyledElement">
+        <modelElement href="apptakeaway.uml#_PqEmUU1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_THd6d01ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_THd6eE1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_THd6eU1ZEe28Jf4XjjkdRA" name="menus">
+        <modelElement href="apptakeaway.uml#_PqEmUE1ZEe28Jf4XjjkdRA"/>
+        <cardinality xmi:id="_THd6ek1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+        <type xmi:id="_THd6e01ZEe28Jf4XjjkdRA" name="List">
+          <modelElement href="apptakeaway.uml#_PeoyYE1ZEe28Jf4XjjkdRA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_THd6fE1ZEe28Jf4XjjkdRA" name="equals">
+      <modelElement href="apptakeaway.uml#_PqNJME1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_THd6fU1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PqOXUE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_THd6fk1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PqO-YE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_THd6f01ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_THd6gE1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_THd6gU1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PqNwQU1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_THd6gk1ZEe28Jf4XjjkdRA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_THd6g01ZEe28Jf4XjjkdRA" name="obj">
+        <modelElement href="apptakeaway.uml#_PqNwQE1ZEe28Jf4XjjkdRA"/>
+        <cardinality xmi:id="_THd6hE1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+        <type xmi:id="_THd6hU1ZEe28Jf4XjjkdRA" name="Object">
+          <modelElement href="apptakeaway.uml#_Ppjo8E1ZEe28Jf4XjjkdRA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TH4xAE1ZEe28Jf4XjjkdRA" name="Item" associationsIn="_THwOIE1ZEe28Jf4XjjkdRA _TJJVQE1ZEe28Jf4XjjkdRA" associationsOut="_THyDUE1ZEe28Jf4XjjkdRA">
+    <modelElement href="apptakeaway.uml#_POjvAE1ZEe28Jf4XjjkdRA"/>
+    <visualProperties xmi:id="_TH4xAU1ZEe28Jf4XjjkdRA" position="880.0,-300.0" size="-1.0,-1.0" backgroundColor="255,255,255" gradientToColor="255,255,255"/>
+    <stereotypes xmi:id="_TH4xAk1ZEe28Jf4XjjkdRA" name="JPA1StyledElement">
+      <modelElement href="apptakeaway.uml#_POmLQE1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_TH4xA01ZEe28Jf4XjjkdRA" name="Annotations">
+      <modelElement href="apptakeaway.uml#_PO2C4E1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <visibility xmi:id="_TH4xBE1ZEe28Jf4XjjkdRA" label="+"/>
+    <attributes xmi:id="_TH4xBU1ZEe28Jf4XjjkdRA" name="id">
+      <modelElement href="apptakeaway.uml#_PtAlkE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TH4xBk1ZEe28Jf4XjjkdRA" name="PrimaryKey">
+        <modelElement href="apptakeaway.uml#_PtAlkU1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TH4xB01ZEe28Jf4XjjkdRA" name="GeneratedValueMapping">
+        <modelElement href="apptakeaway.uml#_PtBMoE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TH4xCE1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TH4xCU1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TH4xCk1ZEe28Jf4XjjkdRA" name="Long">
+        <modelElement href="apptakeaway.uml#_PpZ38E1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TH4xC01ZEe28Jf4XjjkdRA" name="name">
+      <modelElement href="apptakeaway.uml#_PtBzsE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TH4xDE1ZEe28Jf4XjjkdRA" name="NotNull">
+        <modelElement href="apptakeaway.uml#_PtCawE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TH4xDU1ZEe28Jf4XjjkdRA" name="Column">
+        <modelElement href="apptakeaway.uml#_PtJvgE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TH4xDk1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TH4xD01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TH4xEE1ZEe28Jf4XjjkdRA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TH4xEU1ZEe28Jf4XjjkdRA" name="picture">
+      <modelElement href="apptakeaway.uml#_PtKWkE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TH4xEk1ZEe28Jf4XjjkdRA" name="Column">
+        <modelElement href="apptakeaway.uml#_PtP2IE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TH4xE01ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TH4xFE1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TH4xFU1ZEe28Jf4XjjkdRA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TH4xFk1ZEe28Jf4XjjkdRA" name="description">
+      <modelElement href="apptakeaway.uml#_PtQdME1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TH4xF01ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PtREQE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TH4xGE1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PtSSYU1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TH4xGU1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TH4xGk1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TH4xG01ZEe28Jf4XjjkdRA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TH4xHE1ZEe28Jf4XjjkdRA" defaultValue="new ArrayList&lt;>()" name="calc">
+      <modelElement href="apptakeaway.uml#_PtTggk1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TH4xHU1ZEe28Jf4XjjkdRA" name="JoinColumns">
+        <modelElement href="apptakeaway.uml#_PtUHkU1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TH4xHk1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TH4xH01ZEe28Jf4XjjkdRA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_TH4xIE1ZEe28Jf4XjjkdRA" name="Calculation">
+        <modelElement href="apptakeaway.uml#_PPEFUE1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_TH4xIU1ZEe28Jf4XjjkdRA" name="hashCode">
+      <modelElement href="apptakeaway.uml#_POuHEE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TH4xIk1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_POv8QE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TH4xI01ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_POwjUE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TH4xJE1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TH4xJU1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TH4xJk1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_POuuIE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TH4xJ01ZEe28Jf4XjjkdRA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TH4xKE1ZEe28Jf4XjjkdRA" name="toString">
+      <modelElement href="apptakeaway.uml#_POyYgE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TH4xKU1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PO0NsE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TH4xKk1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PO00wE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TH4xK01ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TH4xLE1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TH4xLU1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_POzmoE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TH4xLk1ZEe28Jf4XjjkdRA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TH4xL01ZEe28Jf4XjjkdRA" name="equals">
+      <modelElement href="apptakeaway.uml#_PqUd8E1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TH4xME1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PqVFAE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TH4xMU1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PqVsEE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TH4xMk1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TH4xM01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TH4xNE1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PqUd8k1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TH4xNU1ZEe28Jf4XjjkdRA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_TH4xNk1ZEe28Jf4XjjkdRA" name="obj">
+        <modelElement href="apptakeaway.uml#_PqUd8U1ZEe28Jf4XjjkdRA"/>
+        <cardinality xmi:id="_TH4xN01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+        <type xmi:id="_TH4xOE1ZEe28Jf4XjjkdRA" name="Object">
+          <modelElement href="apptakeaway.uml#_Ppjo8E1ZEe28Jf4XjjkdRA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TIfN8E1ZEe28Jf4XjjkdRA" name="Menu" associationsIn="_THyDUE1ZEe28Jf4XjjkdRA _THdTME1ZEe28Jf4XjjkdRA">
+    <modelElement href="apptakeaway.uml#_PLInkE1ZEe28Jf4XjjkdRA"/>
+    <visualProperties xmi:id="_TIfN8U1ZEe28Jf4XjjkdRA" position="1915.0,-574.0" size="-1.0,-1.0" backgroundColor="255,255,255" gradientToColor="255,255,255"/>
+    <stereotypes xmi:id="_TIfN8k1ZEe28Jf4XjjkdRA" name="JPA1StyledElement">
+      <modelElement href="apptakeaway.uml#_PLRxgE1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_TIfN801ZEe28Jf4XjjkdRA" name="Annotations">
+      <modelElement href="apptakeaway.uml#_PLo94E1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <visibility xmi:id="_TIfN9E1ZEe28Jf4XjjkdRA" label="+"/>
+    <attributes xmi:id="_TIfN9U1ZEe28Jf4XjjkdRA" name="id">
+      <modelElement href="apptakeaway.uml#_PrI9UE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TIfN9k1ZEe28Jf4XjjkdRA" name="PrimaryKey">
+        <modelElement href="apptakeaway.uml#_PrJkYE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TIfN901ZEe28Jf4XjjkdRA" name="GeneratedValueMapping">
+        <modelElement href="apptakeaway.uml#_PrKLcE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TIfN-E1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TIfN-U1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TIfN-k1ZEe28Jf4XjjkdRA" name="Long">
+        <modelElement href="apptakeaway.uml#_PpZ38E1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TIfN-01ZEe28Jf4XjjkdRA" name="name">
+      <modelElement href="apptakeaway.uml#_PrMAoE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TIfN_E1ZEe28Jf4XjjkdRA" name="NotNull">
+        <modelElement href="apptakeaway.uml#_PrMnsE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TIfN_U1ZEe28Jf4XjjkdRA" name="Column">
+        <modelElement href="apptakeaway.uml#_PrUjgE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TIfN_k1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TIfN_01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TIfOAE1ZEe28Jf4XjjkdRA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TIfOAU1ZEe28Jf4XjjkdRA" defaultValue="new ArrayList&lt;>()" name="items">
+      <modelElement href="apptakeaway.uml#_PrVxoE1ZEe28Jf4XjjkdRA"/>
+      <visibility xmi:id="_TIfOAk1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TIfOA01ZEe28Jf4XjjkdRA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_TIfOBE1ZEe28Jf4XjjkdRA" name="Item">
+        <modelElement href="apptakeaway.uml#_POjvAE1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_TIfOBU1ZEe28Jf4XjjkdRA" name="hashCode">
+      <modelElement href="apptakeaway.uml#_PLaUYE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TIfOBk1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PLgbAE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TIfOB01ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PLiQME1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TIfOCE1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TIfOCU1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TIfOCk1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PLfM4E1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TIfOC01ZEe28Jf4XjjkdRA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TIfODE1ZEe28Jf4XjjkdRA" name="toString">
+      <modelElement href="apptakeaway.uml#_PLkscE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TIfODU1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PLmhoE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TIfODk1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PLnIsE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TIfOD01ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TIfOEE1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TIfOEU1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PLl6kE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TIfOEk1ZEe28Jf4XjjkdRA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TIfOE01ZEe28Jf4XjjkdRA" name="equals">
+      <modelElement href="apptakeaway.uml#_PpqWoU1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TIfOFE1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PprkwE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TIfOFU1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PpsL0E1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TIfOFk1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TIfOF01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TIfOGE1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_Ppq9sE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TIfOGU1ZEe28Jf4XjjkdRA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_TIfOGk1ZEe28Jf4XjjkdRA" name="obj">
+        <modelElement href="apptakeaway.uml#_PpqWok1ZEe28Jf4XjjkdRA"/>
+        <cardinality xmi:id="_TIfOG01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+        <type xmi:id="_TIfOHE1ZEe28Jf4XjjkdRA" name="Object">
+          <modelElement href="apptakeaway.uml#_Ppjo8E1ZEe28Jf4XjjkdRA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TI0lIE1ZEe28Jf4XjjkdRA" name="Order" associationsIn="_TIz-EE1ZEe28Jf4XjjkdRA" associationsOut="_TIq0IE1ZEe28Jf4XjjkdRA">
+    <modelElement href="apptakeaway.uml#_PPb4wE1ZEe28Jf4XjjkdRA"/>
+    <visualProperties xmi:id="_TI0lIU1ZEe28Jf4XjjkdRA" position="1683.0,104.0" size="-1.0,-1.0" backgroundColor="255,255,255" gradientToColor="255,255,255"/>
+    <stereotypes xmi:id="_TI0lIk1ZEe28Jf4XjjkdRA" name="Table">
+      <modelElement href="apptakeaway.uml#_PPvawE1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_TI0lI01ZEe28Jf4XjjkdRA" name="JPA1StyledElement">
+      <modelElement href="apptakeaway.uml#_PPwo4E1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <visibility xmi:id="_TI0lJE1ZEe28Jf4XjjkdRA" label="+"/>
+    <attributes xmi:id="_TI0lJU1ZEe28Jf4XjjkdRA" name="id">
+      <modelElement href="apptakeaway.uml#_Pt8ZsE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TI0lJk1ZEe28Jf4XjjkdRA" name="PrimaryKey">
+        <modelElement href="apptakeaway.uml#_Pt9AwE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TI0lJ01ZEe28Jf4XjjkdRA" name="GeneratedValueMapping">
+        <modelElement href="apptakeaway.uml#_Pt9AwU1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TI0lKE1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TI0lKU1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TI0lKk1ZEe28Jf4XjjkdRA" name="Long">
+        <modelElement href="apptakeaway.uml#_PpZ38E1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TI0lK01ZEe28Jf4XjjkdRA" name="state">
+      <modelElement href="apptakeaway.uml#_Pt9n0E1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TI0lLE1ZEe28Jf4XjjkdRA" name="Column">
+        <modelElement href="apptakeaway.uml#_PuDucE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TI0lLU1ZEe28Jf4XjjkdRA" name="EnumerationStyleMapping">
+        <modelElement href="apptakeaway.uml#_PuLqQE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TI0lLk1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TI0lL01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TI0lME1ZEe28Jf4XjjkdRA" name="OrderStateEnum">
+        <modelElement href="apptakeaway.uml#_PohuMU1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TI0lMU1ZEe28Jf4XjjkdRA" defaultValue="new ArrayList&lt;>()" name="orderItems">
+      <modelElement href="apptakeaway.uml#_PuMRUE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TI0lMk1ZEe28Jf4XjjkdRA" name="JoinColumns">
+        <modelElement href="apptakeaway.uml#_PuMRUk1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TI0lM01ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TI0lNE1ZEe28Jf4XjjkdRA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_TI0lNU1ZEe28Jf4XjjkdRA" name="OrderItem">
+        <modelElement href="apptakeaway.uml#_PQGnIE1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TI0lNk1ZEe28Jf4XjjkdRA" name="cart">
+      <modelElement href="apptakeaway.uml#_PuNfcE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TI0lN01ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PuOGgE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TI0lOE1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PuOtkE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TI0lOU1ZEe28Jf4XjjkdRA" label="-"/>
+      <cardinality xmi:id="_TI0lOk1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TI0lO01ZEe28Jf4XjjkdRA" name="Cart">
+        <modelElement href="apptakeaway.uml#_PL3nYE1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TI0lPE1ZEe28Jf4XjjkdRA" name="created">
+      <modelElement href="apptakeaway.uml#_PuOtl01ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TI0lPU1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PuPUoE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TI0lPk1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PuP7sE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TI0lP01ZEe28Jf4XjjkdRA" label="-"/>
+      <cardinality xmi:id="_TI0lQE1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TI0lQU1ZEe28Jf4XjjkdRA" name="Date">
+        <modelElement href="apptakeaway.uml#_PnWCcE1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_TI0lQk1ZEe28Jf4XjjkdRA" name="getCart">
+      <modelElement href="apptakeaway.uml#_PPzFIE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TI0lQ01ZEe28Jf4XjjkdRA" name="StyledElement">
+        <modelElement href="apptakeaway.uml#_PP0TQE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TI0lRE1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TI0lRU1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TI0lRk1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_Pot7cE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TI0lR01ZEe28Jf4XjjkdRA" name="Cart">
+          <modelElement href="apptakeaway.uml#_PL3nYE1ZEe28Jf4XjjkdRA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TI0lSE1ZEe28Jf4XjjkdRA" name="getCreated">
+      <modelElement href="apptakeaway.uml#_PP06UE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TI0lSU1ZEe28Jf4XjjkdRA" name="StyledElement">
+        <modelElement href="apptakeaway.uml#_PP1hYE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TI0lSk1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TI0lS01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TI0lTE1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PqsRYE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TI0lTU1ZEe28Jf4XjjkdRA" name="Date">
+          <modelElement href="apptakeaway.uml#_PnWCcE1ZEe28Jf4XjjkdRA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TI0lTk1ZEe28Jf4XjjkdRA" name="hashCode">
+      <modelElement href="apptakeaway.uml#_PP2IcE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TI0lT01ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PP39oE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TI0lUE1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PP4ksE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TI0lUU1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TI0lUk1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TI0lU01ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PP3WkE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TI0lVE1ZEe28Jf4XjjkdRA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TI0lVU1ZEe28Jf4XjjkdRA" name="toString">
+      <modelElement href="apptakeaway.uml#_PP5y0E1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TI0lVk1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PP7A8E1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TI0lV01ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PP7oAE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TI0lWE1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TI0lWU1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TI0lWk1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PP5y0U1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TI0lW01ZEe28Jf4XjjkdRA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TI0lXE1ZEe28Jf4XjjkdRA" name="setCart">
+      <modelElement href="apptakeaway.uml#_Pot7cU1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TI0lXU1ZEe28Jf4XjjkdRA" name="StyledElement">
+        <modelElement href="apptakeaway.uml#_PouigE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TI0lXk1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TI0lX01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_TI0lYE1ZEe28Jf4XjjkdRA" name="cart">
+        <modelElement href="apptakeaway.uml#_Pot7ck1ZEe28Jf4XjjkdRA"/>
+        <cardinality xmi:id="_TI0lYU1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+        <type xmi:id="_TI0lYk1ZEe28Jf4XjjkdRA" name="Cart">
+          <modelElement href="apptakeaway.uml#_PL3nYE1ZEe28Jf4XjjkdRA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TI0lY01ZEe28Jf4XjjkdRA" name="setCreated">
+      <modelElement href="apptakeaway.uml#_Pqs4cE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TI0lZE1ZEe28Jf4XjjkdRA" name="StyledElement">
+        <modelElement href="apptakeaway.uml#_PqtfgE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TI0lZU1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TI0lZk1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_TI0lZ01ZEe28Jf4XjjkdRA" name="created">
+        <modelElement href="apptakeaway.uml#_Pqs4cU1ZEe28Jf4XjjkdRA"/>
+        <cardinality xmi:id="_TI0laE1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+        <type xmi:id="_TI0laU1ZEe28Jf4XjjkdRA" name="Date">
+          <modelElement href="apptakeaway.uml#_PnWCcE1ZEe28Jf4XjjkdRA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TI0lak1ZEe28Jf4XjjkdRA" name="equals">
+      <modelElement href="apptakeaway.uml#_PquGkE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TI0la01ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PqutoE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TI0lbE1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PqutoU1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TI0lbU1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TI0lbk1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TI0lb01ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PquGkk1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TI0lcE1ZEe28Jf4XjjkdRA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_TI0lcU1ZEe28Jf4XjjkdRA" name="obj">
+        <modelElement href="apptakeaway.uml#_PquGkU1ZEe28Jf4XjjkdRA"/>
+        <cardinality xmi:id="_TI0lck1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+        <type xmi:id="_TI0lc01ZEe28Jf4XjjkdRA" name="Object">
+          <modelElement href="apptakeaway.uml#_Ppjo8E1ZEe28Jf4XjjkdRA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TJSfME1ZEe28Jf4XjjkdRA" name="OrderItem" associationsOut="_TJJVQE1ZEe28Jf4XjjkdRA _TIz-EE1ZEe28Jf4XjjkdRA">
+    <modelElement href="apptakeaway.uml#_PQGnIE1ZEe28Jf4XjjkdRA"/>
+    <visualProperties xmi:id="_TJSfMU1ZEe28Jf4XjjkdRA" position="1276.0,518.0" size="-1.0,-1.0" backgroundColor="255,255,255" gradientToColor="255,255,255"/>
+    <stereotypes xmi:id="_TJSfMk1ZEe28Jf4XjjkdRA" name="Table">
+      <modelElement href="apptakeaway.uml#_PQXs4E1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_TJSfM01ZEe28Jf4XjjkdRA" name="JPA1StyledElement">
+      <modelElement href="apptakeaway.uml#_PQY7AE1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <visibility xmi:id="_TJSfNE1ZEe28Jf4XjjkdRA" label="+"/>
+    <attributes xmi:id="_TJSfNU1ZEe28Jf4XjjkdRA" name="id">
+      <modelElement href="apptakeaway.uml#_PuRJ0E1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TJSfNk1ZEe28Jf4XjjkdRA" name="PrimaryKey">
+        <modelElement href="apptakeaway.uml#_PuRw4E1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TJSfN01ZEe28Jf4XjjkdRA" name="GeneratedValueMapping">
+        <modelElement href="apptakeaway.uml#_PuRw4U1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TJSfOE1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TJSfOU1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TJSfOk1ZEe28Jf4XjjkdRA" name="Long">
+        <modelElement href="apptakeaway.uml#_PpZ38E1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TJSfO01ZEe28Jf4XjjkdRA" name="item">
+      <modelElement href="apptakeaway.uml#_PuS_AE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TJSfPE1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PuTmEE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TJSfPU1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PuUNIE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TJSfPk1ZEe28Jf4XjjkdRA" label="-"/>
+      <cardinality xmi:id="_TJSfP01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TJSfQE1ZEe28Jf4XjjkdRA" name="Item">
+        <modelElement href="apptakeaway.uml#_POjvAE1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TJSfQU1ZEe28Jf4XjjkdRA" name="size">
+      <modelElement href="apptakeaway.uml#_PuU0MU1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TJSfQk1ZEe28Jf4XjjkdRA" name="Column">
+        <modelElement href="apptakeaway.uml#_Pud-IE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TJSfQ01ZEe28Jf4XjjkdRA" name="EnumerationStyleMapping">
+        <modelElement href="apptakeaway.uml#_PunIEE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TJSfRE1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TJSfRU1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TJSfRk1ZEe28Jf4XjjkdRA" name="SizeEnum">
+        <modelElement href="apptakeaway.uml#_PnDHgE1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TJSfR01ZEe28Jf4XjjkdRA" name="price">
+      <modelElement href="apptakeaway.uml#_PuoWME1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TJSfSE1ZEe28Jf4XjjkdRA" name="Column">
+        <modelElement href="apptakeaway.uml#_Puvq8E1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TJSfSU1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TJSfSk1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TJSfS01ZEe28Jf4XjjkdRA" name="Float">
+        <modelElement href="apptakeaway.uml#_PqbysE1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_TJSfTE1ZEe28Jf4XjjkdRA" name="getItem">
+      <modelElement href="apptakeaway.uml#_PQbXQE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TJSfTU1ZEe28Jf4XjjkdRA" name="StyledElement">
+        <modelElement href="apptakeaway.uml#_PQb-UE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TJSfTk1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TJSfT01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TJSfUE1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_Po3scE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TJSfUU1ZEe28Jf4XjjkdRA" name="Item">
+          <modelElement href="apptakeaway.uml#_POjvAE1ZEe28Jf4XjjkdRA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TJSfUk1ZEe28Jf4XjjkdRA" name="hashCode">
+      <modelElement href="apptakeaway.uml#_PQclYE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TJSfU01ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PQdzgE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TJSfVE1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PQeakE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TJSfVU1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TJSfVk1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TJSfV01ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PQdMcE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TJSfWE1ZEe28Jf4XjjkdRA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TJSfWU1ZEe28Jf4XjjkdRA" name="toString">
+      <modelElement href="apptakeaway.uml#_PQfosE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TJSfWk1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PQg20E1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TJSfW01ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PQhd4E1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TJSfXE1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TJSfXU1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TJSfXk1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PQfosU1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TJSfX01ZEe28Jf4XjjkdRA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TJSfYE1ZEe28Jf4XjjkdRA" name="setItem">
+      <modelElement href="apptakeaway.uml#_Po3scU1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TJSfYU1ZEe28Jf4XjjkdRA" name="StyledElement">
+        <modelElement href="apptakeaway.uml#_Po4TgU1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TJSfYk1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TJSfY01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_TJSfZE1ZEe28Jf4XjjkdRA" name="item">
+        <modelElement href="apptakeaway.uml#_Po4TgE1ZEe28Jf4XjjkdRA"/>
+        <cardinality xmi:id="_TJSfZU1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+        <type xmi:id="_TJSfZk1ZEe28Jf4XjjkdRA" name="Item">
+          <modelElement href="apptakeaway.uml#_POjvAE1ZEe28Jf4XjjkdRA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TJSfZ01ZEe28Jf4XjjkdRA" name="equals">
+      <modelElement href="apptakeaway.uml#_Pq0NME1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TJSfaE1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_Pq00QE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TJSfaU1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_Pq1bUE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TJSfak1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TJSfa01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TJSfbE1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_Pq0NMk1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TJSfbU1ZEe28Jf4XjjkdRA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_TJSfbk1ZEe28Jf4XjjkdRA" name="obj">
+        <modelElement href="apptakeaway.uml#_Pq0NMU1ZEe28Jf4XjjkdRA"/>
+        <cardinality xmi:id="_TJSfb01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+        <type xmi:id="_TJSfcE1ZEe28Jf4XjjkdRA" name="Object">
+          <modelElement href="apptakeaway.uml#_Ppjo8E1ZEe28Jf4XjjkdRA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TJmoQE1ZEe28Jf4XjjkdRA" name="User" associationsIn="_THUJQE1ZEe28Jf4XjjkdRA" associationsOut="_TGwIkE1ZEe28Jf4XjjkdRA _TGebwE1ZEe28Jf4XjjkdRA">
+    <modelElement href="apptakeaway.uml#_PQpZsE1ZEe28Jf4XjjkdRA"/>
+    <visualProperties xmi:id="_TJmoQU1ZEe28Jf4XjjkdRA" position="414.0,-332.0" size="-1.0,-1.0" backgroundColor="255,255,255" gradientToColor="255,255,255"/>
+    <stereotypes xmi:id="_TJnPUE1ZEe28Jf4XjjkdRA" name="Table">
+      <modelElement href="apptakeaway.uml#_PQ4qQE1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_TJnPUU1ZEe28Jf4XjjkdRA" name="JPA1StyledElement">
+      <modelElement href="apptakeaway.uml#_PQ54YE1ZEe28Jf4XjjkdRA"/>
+    </stereotypes>
+    <visibility xmi:id="_TJnPUk1ZEe28Jf4XjjkdRA" label="+"/>
+    <attributes xmi:id="_TJnPU01ZEe28Jf4XjjkdRA" name="id">
+      <modelElement href="apptakeaway.uml#_Puw5EE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TJnPVE1ZEe28Jf4XjjkdRA" name="PrimaryKey">
+        <modelElement href="apptakeaway.uml#_PuxgIE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TJnPVU1ZEe28Jf4XjjkdRA" name="GeneratedValueMapping">
+        <modelElement href="apptakeaway.uml#_PuxgIU1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TJnPVk1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TJnPV01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TJnPWE1ZEe28Jf4XjjkdRA" name="Long">
+        <modelElement href="apptakeaway.uml#_PpZ38E1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TJnPWU1ZEe28Jf4XjjkdRA" name="firstName">
+      <modelElement href="apptakeaway.uml#_PuyHME1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TJnPWk1ZEe28Jf4XjjkdRA" name="Column">
+        <modelElement href="apptakeaway.uml#_Pu4N0E1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TJnPW01ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TJnPXE1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TJnPXU1ZEe28Jf4XjjkdRA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TJnPXk1ZEe28Jf4XjjkdRA" name="lastName">
+      <modelElement href="apptakeaway.uml#_Pu404E1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TJnPX01ZEe28Jf4XjjkdRA" name="Column">
+        <modelElement href="apptakeaway.uml#_Pu_ikE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TJnPYE1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TJnPYU1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TJnPYk1ZEe28Jf4XjjkdRA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TJnPY01ZEe28Jf4XjjkdRA" name="birthday">
+      <modelElement href="apptakeaway.uml#_PvAJoE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TJnPZE1ZEe28Jf4XjjkdRA" name="Column">
+        <modelElement href="apptakeaway.uml#_PvFpME1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TJnPZU1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TJnPZk1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TJnPZ01ZEe28Jf4XjjkdRA" name="Date">
+        <modelElement href="apptakeaway.uml#_PnWCcE1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TJnPaE1ZEe28Jf4XjjkdRA" name="enterpriseId">
+      <modelElement href="apptakeaway.uml#_PvG3UE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TJnPaU1ZEe28Jf4XjjkdRA" name="Column">
+        <modelElement href="apptakeaway.uml#_PvM98E1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TJnPak1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TJnPa01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TJnPbE1ZEe28Jf4XjjkdRA" name="Long">
+        <modelElement href="apptakeaway.uml#_PpZ38E1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TJnPbU1ZEe28Jf4XjjkdRA" name="credentials">
+      <modelElement href="apptakeaway.uml#_PvOMEE1ZEe28Jf4XjjkdRA"/>
+      <visibility xmi:id="_TJnPbk1ZEe28Jf4XjjkdRA" label="-"/>
+      <cardinality xmi:id="_TJnPb01ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <type xmi:id="_TJnPcE1ZEe28Jf4XjjkdRA" name="Credentials">
+        <modelElement href="apptakeaway.uml#_PMQo8E1ZEe28Jf4XjjkdRA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_TJnPcU1ZEe28Jf4XjjkdRA" name="getCredentials">
+      <modelElement href="apptakeaway.uml#_PQ87sE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TJnPck1ZEe28Jf4XjjkdRA" name="StyledElement">
+        <modelElement href="apptakeaway.uml#_PQ9iwE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TJnPc01ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TJnPdE1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TJnPdU1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PpAPUE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TJnPdk1ZEe28Jf4XjjkdRA" name="Credentials">
+          <modelElement href="apptakeaway.uml#_PMQo8E1ZEe28Jf4XjjkdRA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TJnPd01ZEe28Jf4XjjkdRA" name="isEmployee">
+      <modelElement href="apptakeaway.uml#_PQ-w4E1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TJnPeE1ZEe28Jf4XjjkdRA" name="StyledElement">
+        <modelElement href="apptakeaway.uml#_PQ__AE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TJnPeU1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TJnPek1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TJnPe01ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PQ_X8E1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TJnPfE1ZEe28Jf4XjjkdRA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TJnPfU1ZEe28Jf4XjjkdRA" name="hashCode">
+      <modelElement href="apptakeaway.uml#_PRAmEE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TJnPfk1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PRCbQE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TJnPf01ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PRDCUE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TJnPgE1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TJnPgU1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TJnPgk1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PRBNIE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TJnPg01ZEe28Jf4XjjkdRA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TJnPhE1ZEe28Jf4XjjkdRA" name="toString">
+      <modelElement href="apptakeaway.uml#_PRDpYE1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TJnPhU1ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_PRE3gE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TJnPhk1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_PRFekE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TJnPh01ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TJnPiE1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TJnPiU1ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_PREQcE1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TJnPik1ZEe28Jf4XjjkdRA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TJnPi01ZEe28Jf4XjjkdRA" name="setCredentials">
+      <modelElement href="apptakeaway.uml#_PpAPUU1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TJnPjE1ZEe28Jf4XjjkdRA" name="StyledElement">
+        <modelElement href="apptakeaway.uml#_PpBdcE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TJnPjU1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TJnPjk1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_TJnPj01ZEe28Jf4XjjkdRA" name="credentials">
+        <modelElement href="apptakeaway.uml#_PpA2YE1ZEe28Jf4XjjkdRA"/>
+        <cardinality xmi:id="_TJnPkE1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+        <type xmi:id="_TJnPkU1ZEe28Jf4XjjkdRA" name="Credentials">
+          <modelElement href="apptakeaway.uml#_PMQo8E1ZEe28Jf4XjjkdRA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TJnPkk1ZEe28Jf4XjjkdRA" name="equals">
+      <modelElement href="apptakeaway.uml#_Pq6T0E1ZEe28Jf4XjjkdRA"/>
+      <stereotypes xmi:id="_TJnPk01ZEe28Jf4XjjkdRA" name="LegacyStyledElement">
+        <modelElement href="apptakeaway.uml#_Pq7h8E1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TJnPlE1ZEe28Jf4XjjkdRA" name="Annotations">
+        <modelElement href="apptakeaway.uml#_Pq8JAE1ZEe28Jf4XjjkdRA"/>
+      </stereotypes>
+      <visibility xmi:id="_TJnPlU1ZEe28Jf4XjjkdRA" label="+"/>
+      <cardinality xmi:id="_TJnPlk1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TJnPl01ZEe28Jf4XjjkdRA">
+        <modelElement href="apptakeaway.uml#_Pq664E1ZEe28Jf4XjjkdRA"/>
+        <type xmi:id="_TJnPmE1ZEe28Jf4XjjkdRA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_TJnPmU1ZEe28Jf4XjjkdRA" name="obj">
+        <modelElement href="apptakeaway.uml#_Pq6T0U1ZEe28Jf4XjjkdRA"/>
+        <cardinality xmi:id="_TJnPmk1ZEe28Jf4XjjkdRA" label="1" max="1" min="1"/>
+        <type xmi:id="_TJnPm01ZEe28Jf4XjjkdRA" name="Object">
+          <modelElement href="apptakeaway.uml#_Ppjo8E1ZEe28Jf4XjjkdRA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

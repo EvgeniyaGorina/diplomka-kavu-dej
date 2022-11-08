@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_coffee_select.css"/>
+    <link rel="stylesheet" href="style_add_to_card.css">
+    
+    <link rel="stylesheet" href="popup_info.css"/>   
+    
+    <title>Your take away</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="header">
+            <div class="container">
+                <form action="https://www.google.com/search" method="get" class="search-bar">
+                    <button type="submit"><img src="img/icons/searching.svg"></button>
+                    <input type="text" placeholder="search" name="q">
+                </form>
+            </div>
+            <div class="logo-box">
+                <a class="home-logo" href="#"><img src="img/logo/logo.svg" alt="logo" class="logo"></a>
+            </div>
+        </div>
+    </header>
+    <div id="messageBox" class="gelatine"></div>
+
+    <div class="glider nav-scroller">
+        <div class="nav-scroller-items">
+        </div>
+    </div>
+    <!-- Dynamicaly generated content -->
+    <div class="box"></div>
+    <footer>
+        <div class="box-footer">
+            <div class="footer-container">
+                <div class="flex-footer">
+                    <a class="home-logo" href="#">
+                        <img src="img/icons/logo_footer.svg" alt="logo" class="logo-footer"/>
+                    </a>
+                </div>
+                <div class="flex-footer profile">
+                    <a class="order-icon" href="#signIn">
+                        <img src="img/icons/profile_footer.svg" alt="profile" class="profile-footer"/>
+                        <p>Profile</p>
+                    </a>
+                </div>
+                <div class="flex-footer">
+                    <a class="order-icon" href="#">
+                        <img src="img/icons/order_footer.svg" alt="order" class="order-footer"/>
+                        <p>Order</p>
+                    </a>
+                </div>
+                <div class="flex-footer shopping-cart">
+                    <a class="shopping-cart-icon" href="#cart">
+                        <img src="img/icons/my_order_footer.svg" alt="my order" class="my-order-footer"/>
+                        <p>Shopping<br>cart</p>
+                    </a>
+                </div>
+            </div>
+            <div class="container footer-copyright">
+                <p> Copyright</p>
+             </div>
+        </div>
+    </footer>
+   
+    <script src="script1.js"></script>
+    <script type="module" src="./retrieveContent.js"></script>   
+    
+    
+</body>
+
+</html>

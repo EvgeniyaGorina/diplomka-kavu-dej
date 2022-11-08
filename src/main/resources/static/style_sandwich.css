@@ -1,0 +1,17 @@
+.header{
+    background-image: url(img/pict/sandwich_cover_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item-img3{
+    background-image: url(img/pict/sandwich_cover.jpg);
+    background-position: center;
+}
+.item-img2{
+    background-image: url(img/pict/sandwich_2.jpg);
+} 
+.item-img1{
+    background-image: url(img/pict/sandwich_3.jpg);
+    background-position: center;
+} 

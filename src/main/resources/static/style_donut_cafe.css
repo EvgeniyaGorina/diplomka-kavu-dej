@@ -1,0 +1,124 @@
+
+/*Colors
+ h1 color #1d2221;
+
+
+
+*/
+@media screen and (max-width:1080px){
+
+.header{
+    background-image: url(img/pict/donut_cover.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item-img3{
+    background-image: url(img/pict/donut_3a.jpg);
+    background-position: center;
+}
+.item-img2{
+    background-image: url(img/pict/donut_1.jpg);
+} 
+.item-img1{
+    background-image: url(img/pict/donut_3a.jpg);
+    background-position: center;
+} 
+} 
+.item-img4{
+    background-image: url(img/pict/donut_3.jpg);
+    background-position: center;
+} 
+/* .cafe-name{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    height: 5.5rem;
+    background: linear-gradient( to left bottom, hsla(180, 12%, 95%, 0.623), hsla(0, 0%, 100%, 0.808)); 
+    /* background-color: rgba(255, 255, 255, 0.664); */
+    /* top:50%; */
+/* } */
+/* .cafe-name h1{
+    font-size: 20px;
+    position: absolute;
+    top: 35%;
+    left: 34%;
+    color: #1d2221;
+    transform: translate(-0.9rem, -0.1ex);
+    text-transform: uppercase;
+}
+
+
+.box{
+    margin-bottom:42vw;
+}
+.box-container{
+    margin: 12px 9px;
+    border:8px solid #c1efe7;
+    border-right: 1px; 
+    font-size: 3.7vw;
+    text-align: center;
+    background-color: #c1efe7;
+    border-radius: 1px;
+}
+.flex-container{
+    display: flex;
+    flex-wrap:nowrap;
+}
+
+.flex-item-left{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    flex:20%;
+    padding: 10px; 
+    border-radius: 6px;
+    border: 1px solid white;
+    height: 4.5rem;
+}
+
+.flex-item-right{
+    flex:60%;
+}
+.flex-item-btn{
+    flex:20%;
+    padding: 9px;
+    padding-top: 18px;
+}
+.flex-item-right h2{
+    font-size: 3.8vw;
+    text-transform: uppercase;
+    color:#181e1d;
+}
+
+.flex-item-right p {
+    text-transform: lowercase;
+    color: #444f4d;
+    font-weight: 500;
+}
+.stars-container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.flex-stars{
+    padding: 3px;
+}
+.flex-stars img{
+    width: 28vw;
+}
+ */
+
+
+@media screen and (max-width:380px){
+
+
+    .cafe-name{
+        height: 4.5rem;
+    }
+
+    .cafe-name h1{
+        font-size: 17px;
+        top: 37%;
+        left: 35%;
+}  
+}

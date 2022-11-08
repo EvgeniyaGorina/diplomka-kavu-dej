@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Glider.js/glider.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style1.css"> -->
+    <title>Your take away</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="header">
+            <div class="container">
+                <button class="btn-sign bussines">Bussines</button>
+                <button class="btn-sign user">Users</button>
+            </div>
+            <div class="logo-box">
+                <img src="img/logo/logo.svg" alt="logo" class="logo">
+            </div>
+        </div>
+    </header>
+    <div class="container signIn-text">
+        <h3>Let's sign you up!</h3>
+    </div>
+    <div class="container formSignInGapAfter">
+        <form id="createUser" method="post" action="#">
+            <label class="inputSignIn" for="email">E-mail</label>
+            <input type="text" id="email" name="email" required placeholder="Your e-mail..">
+            <label class="inputSignIn" for="name">Name</label>
+            <input type="text" id="name" name="firstName" placeholder="Your name..">
+            <label class="inputSignIn" for="surname">Surname</label>
+            <input type="text" id="surname" name="lastName" placeholder="Your Surname..">
+            <label class="inputSignIn" for="birthday">Birthday</label>
+            <input type="date" id="birthday" name="birthday">
+            <label class="inputSignIn" for="phone">Phone</label>
+            <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+            <label class="inputSignIn" for="password">Password</label>
+            <input type="password" id="password" name="password" required placeholder="Your password..">
+            <input type="submit" value="Continue">
+        </form>
+    </div>
+    <footer>
+        <div class="box-footer">
+            <div class="footer-container">
+                <div class="flex-footer">
+                    <a class="home-logo" href="#">
+                        <img src="img/icons/logo_footer.svg" alt="logo" class="logo-footer">
+                    </a>
+                </div>
+                <div class="flex-footer profile">
+                    <a class="order-icon" href="#">
+                        <img src="img/icons/profile_footer.svg" alt="profile" class="profile-footer">
+                        <p>Profile</p>
+                    </a>
+                </div>
+                <div class="flex-footer">
+                    <a class="order-icon" href="#">
+                        <img src="img/icons/order_footer.svg" alt="order" class="order-footer">
+                        <p>Order</p>
+                    </a>
+                </div>
+                <div class="flex-footer shopping-cart">
+                    <a class="shopping-cart-icon" href="#">
+                        <img src="img/icons/my_order_footer.svg" alt="my order" class="my-order-footer">
+                        <p>Shopping<br>cart</p>
+                    </a>
+                </div>
+            </div>
+            <div class="container footer-copyright">
+                <p> Copyright</p>
+            </div>
+        </div>
+
+    </footer>
+    <script src="script1.js"></script>
+    <script src="createUser.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+div.glider {
+    white-space: nowrap;
+  
+  }
+  
+  div.glider a {
+    width: 100%;
+    left:50%;
+    right: 50%;
+    position: relative;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    border-bottom: 5px solid lightgrey;
+    
+  }
+  
+  div.glider a:hover {
+    color: #00ffbf;
+    border-bottom: 5px solid #00ffbf;
+  }
+  
+
+
+  
+  @media only screen and (min-width: 550px) {
+  
+  .glider-track {
+      margin: 0 auto;
+      justify-content: center;
+  }
+  
+  }

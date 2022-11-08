@@ -1,0 +1,19 @@
+
+
+   .header{
+    background-image: url(img/pict/donut_cover.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item-img3{
+    background-image: url(img/pict/donut_1.jpg);
+    background-position: center;
+}
+.item-img2{
+    background-image: url(img/pict/donut_3a.jpg);
+} 
+.item-img1{
+    background-image: url(img/pict/donut_3.jpg);
+    background-position: center;
+} 

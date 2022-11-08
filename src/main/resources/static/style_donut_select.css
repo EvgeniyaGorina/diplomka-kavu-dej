@@ -1,0 +1,13 @@
+.header{
+    background-image: url(img/pict/donut_1.jpg);
+}
+.btn-add{
+    padding: 7px;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    background-color: #1cbaba;
+    color: white;
+    border: transparent;  
+    border-radius: 3px;
+}

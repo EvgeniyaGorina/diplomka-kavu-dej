@@ -1,0 +1,466 @@
+/* 
+ COLORS:
+
+ Light green:#c1efe7
+ Dark mint:#1cbaba 
+ Medium gray:#d1bfc8 , #7d7276
+ Dark gray:#333333
+ White:#ffff
+ Black:#0000
+
+ */
+
+@media screen and (max-width: 1080px) {
+  * {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #d1bfc8;
+  }
+  /*Header part*/
+  .header {
+    height: 65vw;
+    background-color: #c1efe7;
+    position: relative;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+  /* Sign in buttons */
+  .btn-sign {
+    margin-top: 20px;
+    padding-bottom: 2px;
+    width: 100px;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 2px solid white;
+  }
+  .btn-sign:hover {
+    border-bottom: 2px solid #1cbaba;
+    color: #db2b75;
+    font-weight: 700;
+  }
+  .img-sign-in {
+    margin-top: 60px;
+  }
+  .signIn-text {
+    margin-top: 20px;
+  }
+  .signIn-text > h3 {
+    color: #232726;
+    font-size: 18px;
+  }
+
+  /* Form sign in */
+  input {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #1cbaba;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    width: 200px;
+    background-color: #1cbaba;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #c1efe7;
+  }
+  /* Label decoration */
+  .inputSignIn {
+    text-align: left;
+    position: relative;
+    float: left;
+    left: 20px;
+    clear: right;
+    margin-top: 17px;
+    line-height: 3px;
+  }
+  .formSignInGapAfter {
+    margin-bottom: 10rem;
+  }
+  /* Searching gap main page */
+  .search-bar {
+    width: 100%;
+    max-width: 60vw;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 1% 4%;
+    position: absolute;
+    top: 14vw;
+    left: 40%;
+    transform: translate(-20vw);
+  }
+  .search-bar input {
+    flex: 1;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0% 3%;
+    font-size: 14px;
+    text-transform: capitalize;
+  }
+  ::placeholder {
+    color: #7d7276;
+  }
+  .search-bar button {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+  }
+  .search-bar button img {
+    width: 25px;
+  }
+  .logo-box {
+    display: block;
+    position: absolute;
+    top: 27vw;
+    left: 50%;
+    transform: translate(-60%);
+  }
+  .logo {
+    display: block;
+    width: 50vw;
+  }
+
+#messageBox {
+	width: 100%;
+	display: none;
+	color: black;
+	text-align: center;
+	padding: 1px;
+}
+
+.gelatine {
+  animation: gelatine 0.5s 1s;
+}
+@keyframes gelatine {
+  from, to { transform: scale(1, 1); }
+  25% { transform: scale(0.9, 1.1); }
+  50% { transform: scale(1.1, 0.9); }
+  75% { transform: scale(0.95, 1.05); }
+}
+
+  /*Nav bar
+https://itchief.ru/html-and-css/horizontal-scrolling-menu
+*/
+  .nav-scroller-item span {
+    margin-right: 0.35rem;
+  }
+  .nav-scroller-item span img {
+    margin-top: 0.2rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .item3 span img {
+    margin-top: 0.1rem;
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .nav-scroller {
+    overflow-y: hidden;
+    background-color: #fff;
+    scrollbar-width: none;
+  }
+  .nav-scroller::-webkit-scrollbar {
+    display: none;
+  }
+  .nav-scroller-items {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 53vh;
+  }
+  .nav-scroller-item {
+    display: flex;
+    text-decoration: none;
+    padding: 0.5rem 1.25rem;
+    color: #d1bfc8;
+    font-weight: bold;
+  }
+  .nav-scroller-items {
+    border-bottom: 6px solid #d1bfc8;
+  }
+  .nav-scroller-items:not(:last-child) {
+    border-bottom: 10rem solid gray;
+  }
+
+  /* for all items exeption active */
+  .nav-scroller-item:not(.nav-scroller-item_active):hover {
+    font-size: 24px;
+    transform: scaleX(1);
+    color: #1cbaba;
+    border-bottom: 1px solid #1cbaba;
+  }
+
+  /*Body with shop cards*/
+  .box {
+    margin-bottom: 38vw;
+  }
+  .box-container {
+    margin: 15px 20px;
+    border: 15px solid #c1efe7;
+    border-right: 1px;
+    font-size: 3.7vw;
+    text-align: center;
+    background-color: #c1efe7;
+    border-radius: 1px;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .flex-item-left {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    flex: 50%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid white;
+  }
+  .flex-item-left1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    flex: 50%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid white;
+  }
+  .item-img3 {
+    background-image: url(img/pict/coffee_shop_2.jpg);
+  }
+  .item-img2 {
+    background-image: url(img/pict/coffee_shop_1.jpg);
+  }
+  .item-img1 {
+    background-image: url(img/pict/coffee_shop_2.jpg);
+    min-height: 80px;
+  }
+  .flex-item-right {
+    flex: 50%;
+    padding: 1px 10px;
+    padding-bottom: 2px;
+  }
+  .flex-item-right h2 {
+    font-size: 3.8vw;
+    text-transform: uppercase;
+    color: #181e1d;
+  }
+
+  .flex-item-right p {
+    text-transform: lowercase;
+    color: #444f4d;
+    font-weight: 500;
+  }
+  .stars-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .flex-stars {
+    padding: 3px;
+  }
+  .flex-stars img {
+    width: 28vw;
+  }
+
+  /* Footer */
+
+  .box-footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .footer-container {
+    display: flex;
+    height: 25vw;
+    background-color: #1cbaba;
+    position: relative;
+    padding-top: 16px;
+    text-align: center;
+    color: #fff;
+    word-break: break-all;
+    line-height: 1.2rem;
+  }
+
+  img > .logo-footer {
+    width: 100%;
+  }
+
+  .profile p {
+    line-height: 1.3rem;
+  }
+  .shopping-cart p {
+    line-height: 1.5rem;
+  }
+  .flex-footer a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .flex-footer p {
+    font-size: 16px;
+  }
+}
+/* For smallest devices */
+
+@media screen and (max-width: 380px) {
+  .nav-scroller {
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .nav_scroller::-webkit-scrollbar {
+    display: none;
+    height: 0;
+    width: 0;
+  }
+
+  /* for all items exeption active */
+  .nav-scroller-item:not(.nav-scroller-item_active):hover {
+    font-size: 24px;
+    transform: scaleX(1);
+    font-weight: bold;
+  }
+  /*  for active item*/
+  .nav-scroller-items_active:hover {
+    border-bottom: 5px solid #7d7276;
+    font-size: 20px;
+  }
+
+  /*Footer*/
+
+  .footer-container {
+    padding-top: 1ex;
+  }
+  img .logo-footer {
+    width: 50%;
+  }
+
+  .shopping-cart p {
+    margin-top: 6px;
+    line-height: 2.3ex;
+  }
+  .flex-footer P {
+    font-size: 12px;
+  }
+}
+div .footer-copyright > p {
+  background-color: #1cbaba;
+  color: #fff;
+  width: 100%;
+  border-top: 1px solid #c1efe7;
+  padding: 10px;
+}
+/* CAFE */
+
+.cafe-name{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  height: 5.5rem;
+  background: linear-gradient( to left bottom, hsla(180, 12%, 95%, 0.623), hsla(0, 0%, 100%, 0.808)); 
+  /* background-color: rgba(255, 255, 255, 0.664); */
+  top:50%;
+}
+.cafe-name h1{
+  font-size: 20px;
+  position: absolute;
+  top: 35%;
+  left: 34%;
+  color: #1d2221;
+  transform: translate(-0.9rem, -0.1ex);
+  text-transform: uppercase;
+}
+
+
+.box{
+  margin-bottom:42vw;
+}
+.box-container{
+  margin: 12px 9px;
+  border:8px solid #c1efe7;
+  border-right: 1px; 
+  font-size: 3.7vw;
+  text-align: center;
+  background-color: #c1efe7;
+  border-radius: 1px;
+}
+.flex-container{
+  display: flex;
+  flex-wrap:nowrap;
+}
+
+.flex-item-left{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  flex:20%;
+  padding: 10px; 
+  border-radius: 6px;
+  border: 1px solid white;
+  height: 4.5rem;
+}
+
+.flex-item-right{
+  flex:60%;
+}
+.flex-item-btn{
+  flex:20%;
+  padding: 9px;
+  padding-top: 18px;
+}
+.flex-item-right h2{
+  font-size: 3.8vw;
+  text-transform: uppercase;
+  color:#181e1d;
+}
+
+.flex-item-right p {
+  text-transform: lowercase;
+  color: #444f4d;
+  font-weight: 500;
+}
+.stars-container{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.flex-stars{
+  padding: 3px;
+}
+.flex-stars img{
+  width: 28vw;
+}
+
+.box-container {
+	cursor: pointer;
+}
+.coffee-icon {
+	cursor: pointer;
+}
